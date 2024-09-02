@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #eee;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+    color: #fff;
+}
+
+header p {
+    margin: 10px 0 0;
+    color: #ccc;
+}
+
+/* Games Section Styles */
+#games {
+    padding: 40px 0;
+}
+
+#games h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.game-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.game {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.game:hover {
+    transform: scale(1.05);
+}
+
+.game img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.game h3 {
+    margin-top: 10px;
+    color: #fff;
+}
+
+/* Contact Section Styles */
+#contact {
+    padding: 20px 0;
+}
+
+#contact button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#contact button:hover {
+    background-color: #e64a19;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    padding: 10px 0;
+    color: #ccc;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #ff5722;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
