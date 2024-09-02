@@ -16,27 +16,19 @@
         </div>
     </header>
 
-    <!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <h2>About Us</h2>
-            <p>Welcome to Monster Fuelled Games! We are a passionate indie game studio dedicated to creating fun and engaging games. Our team loves pushing the boundaries of creativity to deliver unique gaming experiences. From fast-paced action games to relaxing rhythm-based titles, we have something for everyone!</p>
-        </div>
-    </section>
-
     <!-- Games Section -->
     <section id="games">
         <div class="container">
             <h2>Our Games</h2>
-            <div class="game">
-                <img src="images/snapshot.png" alt="SnapShot">
-                <h3>SnapShot</h3>
-                <p>Test your reflexes in this fast-paced shooter where you must hit targets before they disappear!</p>
-            </div>
-            <div class="game">
-                <img src="images/drummaster.png" alt="DrumMaster">
-                <h3>DrumMaster</h3>
-                <p>Unleash your inner musician with DrumMaster! A relaxing, free-play drum experience with no rules, just rhythm.</p>
+            <div class="game-grid">
+                <div class="game" onclick="window.open('https://link-to-snapshot.com', '_blank')">
+                    <img src="images/snapshot.png" alt="SnapShot">
+                    <h3>SnapShot</h3>
+                </div>
+                <div class="game" onclick="window.open('https://link-to-drummaster.com', '_blank')">
+                    <img src="images/drummaster.png" alt="DrumMaster">
+                    <h3>DrumMaster</h3>
+                </div>
             </div>
         </div>
     </section>
@@ -44,14 +36,7 @@
     <!-- Contact Section -->
     <section id="contact">
         <div class="container">
-            <h2>Contact Us</h2>
-            <p>Have questions or feedback? We'd love to hear from you!</p>
-            <form action="https://example.com/submit-form" method="post">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="message" placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
+            <button onclick="window.location.href='mailto:MonsterFuelledGames@outlook.com'">Email MFG</button>
         </div>
     </section>
 
@@ -60,12 +45,14 @@
         <div class="container">
             <p>&copy; 2024 Monster Fuelled Games. All rights reserved.</p>
             <p>Follow us on:
-                <a href="https://twitter.com/MonsterFuelled">Twitter</a> |
-                <a href="https://instagram.com/MonsterFuelled">Instagram</a> |
-                <a href="https://facebook.com/MonsterFuelled">Facebook</a>
+                <a href="https://twitter.com/Monster_Fuelled" target="_blank">Twitter</a>
             </p>
         </div>
     </footer>
+
+    <!-- JavaScript for Interaction -->
+    <script>
+        // You can add JavaScript here for future interactive features
+    </script>
 </body>
 </html>
-
